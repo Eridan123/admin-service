@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: admin_service
+  config:
+    import=configserver: http://localhost:8888
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 8080
